@@ -24,6 +24,10 @@ const initialState = [
       {
         id: 1,
         text: "text dua"
+      },
+      {
+        id: 2,
+        text: "text tiga"
       }
     ]
   }
