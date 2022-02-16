@@ -4,8 +4,7 @@ import TrelloList from "./TrelloList";
 function App() {
   return (
     <div className="App">
-      hah
-      <TrelloList/>
+      <TrelloList title="judul"/>
     </div>
   );
 }
