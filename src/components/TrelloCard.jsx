@@ -5,7 +5,7 @@ import CardContent from "@material-ui/core/CardContent";
 const TrelloCard = ({text}) => {
   return (
     <div>
-      <Card>
+      <Card style={styles.cardContainer}>
         {/* <EditButton
         onMouseDown={() => setIsEditing(true)}
         fontSize="small"
@@ -17,11 +17,17 @@ const TrelloCard = ({text}) => {
         </DeleteButton> */}
 
         <CardContent>
-        <Typography>{text}</Typography>
+          <Typography>{text}</Typography>
         </CardContent>
       </Card>
     </div>
   )
+}
+
+const styles = {
+  cardContainer: {
+    marginBottom: 8
+  }
 }
 
 export default TrelloCard
