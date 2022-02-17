@@ -1,7 +1,7 @@
 import { CONSTANTS } from "../actions";
 
 let listID = 2
-let cardID = 3
+let cardID = 5
 
 
 const initialState = [
@@ -24,15 +24,15 @@ const initialState = [
     id:`list-${1}`,
     cards: [
       {
-        id: `card-${0}`,
+        id: `card-${2}`,
         text: "text satu"
       },
       {
-        id: `card-${1}`,
+        id: `card-${3}`,
         text: "text dua"
       },
       {
-        id: `card-${2}`,
+        id: `card-${4}`,
         text: "text tiga"
       }
     ]
